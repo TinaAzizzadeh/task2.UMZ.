@@ -11,7 +11,7 @@ def exam_number():
    x=str(random.randint(0,1))
    a+=x
   print(a)
-  ans=int(input("enetr the decimal value of number:"))
+  ans=int(input("enter the decimal value of number:"))
   n=int(a)
   sum=0
   i=0
@@ -24,5 +24,5 @@ def exam_number():
     t+=1
   else:
     f+=1
- return(t,f)
+ return(f,t)
 print(exam_number())      
