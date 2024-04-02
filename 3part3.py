@@ -1,6 +1,6 @@
 import string
 def check_pass():
-    x=int(input("enter your number:"))
+    x=int(input("enter your number(the number of time you want to enter username and password):"))
     list1=[]
     for i in range (x):
         a=input("enter username:")
