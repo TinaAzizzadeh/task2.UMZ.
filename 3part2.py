@@ -25,4 +25,7 @@ def exam_number():
   else:
     f+=1
  return(f,t)
-print(exam_number())      
+answ=exam_number()
+print("incorrect answers:",answ[0])
+print("correct answers:",answ[1])
+print(answ)      
