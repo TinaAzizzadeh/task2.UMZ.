@@ -79,7 +79,7 @@ def exam_number():
     t+=1
   else:
     f+=1
- return(t,f)
+ return(f,t)
 answer44=exam_number()       
 answer4=[str(s) for s in answer44]
 #third-3
