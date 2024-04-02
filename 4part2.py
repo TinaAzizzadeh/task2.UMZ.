@@ -85,7 +85,7 @@ answer4=[str(s) for s in answer44]
 #third-3
 import string
 def check_pass():
-    x=int(input("enter number:"))
+    x=int(input("enter number(the number of time you want to enter username and password):"))
     list1=[]
     for i in range (x):
         a=input("enter name:")
@@ -121,8 +121,10 @@ def unlock_vault(clue):
  x=clue[0]
  k=x[0]
  return (k)
-print(unlock_vault(answer1))
-print(unlock_vault(answer2))
-print(unlock_vault(answer3))
-print(unlock_vault(answer4))
-print(unlock_vault(answer5))
+p1=unlock_vault(answer1)
+p2=unlock_vault(answer2)
+p3=unlock_vault(answer3)
+p4=unlock_vault(answer4)
+p5=unlock_vault(answer5)
+for i in [p1,p2,p3,p4,p5]:
+  print(i,end="")
