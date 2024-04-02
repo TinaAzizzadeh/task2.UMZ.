@@ -101,7 +101,7 @@ def check_pass():
         n=i[0]
         p=i[1]
         p=str(p)
-        if len(p)>8:
+        if len(p)>=8:
          for x in p:
             if x.isupper()==True:
                 z=True
